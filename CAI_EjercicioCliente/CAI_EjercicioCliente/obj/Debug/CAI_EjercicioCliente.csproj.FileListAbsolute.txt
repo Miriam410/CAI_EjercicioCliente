@@ -1,0 +1,9 @@
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\CAI_EjercicioCliente.exe.config
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\CAI_EjercicioCliente.exe
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\CAI_EjercicioCliente.pdb
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.csprojAssemblyReference.cache
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.Properties.Resources.resources
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.csproj.GenerateResource.cache
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.csproj.CoreCompileInputs.cache
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.exe
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.pdb
