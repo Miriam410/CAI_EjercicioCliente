@@ -8,7 +8,7 @@ using NLayer.Dato;
 
 namespace NLayer.Negocio
 {
-    public class ClienteServicio
+    public  class ClienteServicio
     {
         private ClienteMapper mapper;
 
@@ -17,13 +17,13 @@ namespace NLayer.Negocio
             mapper = new ClienteMapper();
         }
 
-        public List<Cliente> TraerClientes()
+        public List<Cliente> TraerTodos()
         {
             List<Cliente> result = mapper.TraerTodos();
             return result;
         }
 
-        public Cliente TraerCLientesPorId(int id)
+        public Cliente TraerClientePorId(int id)
         {
             List<Cliente> result = mapper.TraerTodos();
 
@@ -38,17 +38,13 @@ namespace NLayer.Negocio
             return cli;
         }
 
-        public int InsertarCliente(string nombre, string apellido, string direccion)
+        public TransactionResult Insert(Cliente cliente)
         {
             List<Cliente> result = mapper.TraerTodos();
-            Cliente cliente = new Cliente();
-            cliente.Apellido = apellido;
-            cliente.Nombre = nombre;
-            cliente.Direccion = direccion;
-
-            foreach (var item in result)
+            
+            foreach (Cliente item in result)
             {
-                if (item.ToString() == cliente.ToString())
+                if (item.Id == cliente.Id)
                 {
                     throw new Exception("El cliente ya existe");
                 }
@@ -56,12 +52,13 @@ namespace NLayer.Negocio
             TransactionResult resultante = mapper.Insert(cliente);
             if (resultante.IsOk)
             {
-                return resultante.Id;
+                return resultante;
             }
             else 
             {
                 throw new Exception("Hubo un error en la peticiòn al servidor. Detalle: "+resultante.Error);
             }
         }
+        
     }
 }

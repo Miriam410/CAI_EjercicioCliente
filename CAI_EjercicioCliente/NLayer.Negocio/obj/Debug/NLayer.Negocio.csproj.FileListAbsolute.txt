@@ -1,0 +1,2 @@
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csprojAssemblyReference.cache

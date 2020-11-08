@@ -12,6 +12,7 @@ namespace NLayer.Entidad
     [DataContract]
     public class Cliente
     {
+        private int _dni;
         private string _nombre;
         private string _apellido;
         private string _direeccion;
@@ -24,6 +25,12 @@ namespace NLayer.Entidad
         private string _host;
         private int _id;
 
+        [DataMember]
+        public int Dni
+        {
+            get { return _dni; }
+            set { _dni = value; }
+        }
         [DataMember]
         public string Nombre
         {
@@ -44,57 +51,57 @@ namespace NLayer.Entidad
             get { return _id; }
             set { _id = value; }
         }
-
+        [DataMember]
         public string Direccion
         {
             get { return _direeccion; }
             set { _direeccion = value; }
         }
-
+        [DataMember]
         public string Email
         {
             get { return _email; }
             set { _email = value; }
         }
-
+        [DataMember]
         public string Telefono
         {
             get { return _telefono; }
             set { _telefono = value; }
         }
-
+        [DataMember]
         public DateTime FechaNacimiento
         {
             get { return _fechaNacimiento; }
             set { _fechaNacimiento = value; }
         }
-
+        [DataMember]
         public DateTime FechaAlta
         {
             get { return _fechaAlta; }
             set { _fechaAlta = value; }
         }
-
+  
         public bool Activo
         {
             get { return _activo; }
             set { _activo = value; }
         }
-
+     
         public string Usuario
         {
             get { return _usuario; }
             set { _usuario = value; }
         }
-
+        
         public string Host
         {
             get { return _host; }
             set { _host = value; }
         }
-        public override string ToString()
+        public Cliente()
         {
-            return string.Format("Cliente{0},{1}", this._apellido, this._nombre);
+           
         }
     }
 

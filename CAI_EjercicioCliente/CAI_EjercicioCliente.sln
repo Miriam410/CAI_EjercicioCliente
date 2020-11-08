@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Formulario", "CAI_EjercicioCliente\NLayer.Formulario.csproj", "{2ADEE31D-F2D1-44C3-A7D2-B17E64594226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Consola", "NLayer.Consola\NLayer.Consola.csproj", "{19726FBC-DEF4-48F3-9E8A-5B5A469BF517}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Negocio", "NLayer.Negocio\NLayer.Negocio.csproj", "{76843072-ACD3-484D-92B9-270405623AED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Dato", "NLayer.Dato\NLayer.Dato.csproj", "{C9A77C5E-2EB1-415C-BA15-7A55BA496C29}"
@@ -23,10 +21,6 @@ Global
 		{2ADEE31D-F2D1-44C3-A7D2-B17E64594226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ADEE31D-F2D1-44C3-A7D2-B17E64594226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ADEE31D-F2D1-44C3-A7D2-B17E64594226}.Release|Any CPU.Build.0 = Release|Any CPU
-		{19726FBC-DEF4-48F3-9E8A-5B5A469BF517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19726FBC-DEF4-48F3-9E8A-5B5A469BF517}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19726FBC-DEF4-48F3-9E8A-5B5A469BF517}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19726FBC-DEF4-48F3-9E8A-5B5A469BF517}.Release|Any CPU.Build.0 = Release|Any CPU
 		{76843072-ACD3-484D-92B9-270405623AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76843072-ACD3-484D-92B9-270405623AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76843072-ACD3-484D-92B9-270405623AED}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -12,14 +12,14 @@ namespace NLayer.Dato
 {
     public static class WebHelper
     {
-        public static WebClient client;
-        public static string rutaBase;
+        static WebClient client;
+        static string rutaBase;
 
         static WebHelper()
         {
             client = new WebClient();
             client.Encoding = Encoding.UTF8;
-            rutaBase = "https://cai-api.azurewebsites.net/";
+            rutaBase = "https://cai-api.azurewebsites.net/api/v1";
 
             client.Headers.Add("ContentType","application/json");
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
@@ -43,7 +43,7 @@ namespace NLayer.Dato
             }
             catch (Exception)
             {
-                return "{\"isOk\":true},\"id\":5,\"error\":null}";
+                return "{\"isOk\":false},\"id\":'1,\"error\": Error en el llamado al servicio\"}";
             }
         }
     }

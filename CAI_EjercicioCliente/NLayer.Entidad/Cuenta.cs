@@ -10,7 +10,7 @@ namespace NLayer.Entidad
     [DataContract]
     public class Cuenta
     {
-        private int _nroCuenta;
+        private int _numeroCuenta;
         private string _descripcion;
         private float _saldo;
         private DateTime _fechaApertura;
@@ -26,51 +26,52 @@ namespace NLayer.Entidad
             set { _id = value; }
         }
 
-        public int NroCuenta
+        [DataMember]
+        public int NumeroCuenta
         {
-            get { return _nroCuenta; }
-            set { _nroCuenta = value; }
+            get { return _numeroCuenta; }
+            set { _numeroCuenta = value; }
         }
-
+        [DataMember]
         public string Descripcion
         {
             get { return _descripcion; }
             set { _descripcion = value; }
         }
-
+        [DataMember]
         public float Saldo
         {
             get { return _saldo; }
             set { _saldo = value; }
         }
-
+        [DataMember]
         public DateTime FechaApertura
         {
             get { return _fechaApertura; }
-            set { FechaApertura = value; }
+            set { _fechaApertura = value; }
         }
-
+        [DataMember]
         public DateTime FechaModificacion
         {
             get { return _fechaModificacion; }
             set { _fechaModificacion = value; }
         }
-
+        [DataMember]
         public bool Activo
         {
             get { return _activo; }
             set { _activo = value; }
         }
-
+        [DataMember]
         public int IdCliente
         {
             get { return _idCliente; }
             set { _idCliente = value; }
         }
 
-        public override string ToString()
+        public Cuenta()
         {
-            return string.Format("El cliente{0} con numero de cuenta{1} tiene un saldo de {2}", this._idCliente,this._nroCuenta,this._saldo);
+            
         }
     }
 

@@ -14,7 +14,7 @@ namespace NLayer.Dato
     {
         public List<Cliente> TraerTodos()
         {
-            string json = WebHelper.Get("/api/v1/cliente");
+            string json = WebHelper.Get("/cliente");
             List<Cliente> resultado = MapList(json);
             return resultado;
         }
@@ -22,7 +22,7 @@ namespace NLayer.Dato
         public TransactionResult Insert(Cliente cliente)
         {
             NameValueCollection obj = ReverseMap(cliente);
-            string result = WebHelper.Post("/api/v1/cliente", obj);
+            string result = WebHelper.Post("cliente", obj);
             TransactionResult resultadoTransaccion = MapResultado(result);
             return resultadoTransaccion;
         }
@@ -36,13 +36,14 @@ namespace NLayer.Dato
         private NameValueCollection ReverseMap(Cliente cliente)
         {
             NameValueCollection n = new NameValueCollection();
+            n.Add("Dni", cliente.Dni.ToString());
             n.Add("Nombre",cliente.Nombre);
             n.Add("Apellido",cliente.Apellido);
             n.Add("Direccion",cliente.Direccion);
             n.Add("Usuario",ConfigurationManager.AppSettings["Legajo"]);
             n.Add("Email", cliente.Email);
             n.Add("Telefono",cliente.Telefono.ToString());
-            n.Add("FechaNacimiento", cliente.FechaNacimiento.ToString());
+            n.Add("FechaNacimiento", cliente.FechaNacimiento.ToShortDateString());
             n.Add("Fechaalta", cliente.FechaAlta.ToString());
             return n;
         }

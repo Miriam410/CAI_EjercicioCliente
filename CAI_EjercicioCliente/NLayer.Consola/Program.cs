@@ -14,20 +14,20 @@ namespace NLayer.Consola
         {
             try
             {
-                ClienteServicio servicio = new ClienteServicio();
-                int cod = servicio.InsertarCliente("Juan","Lopez","Rio 1234");
-                Console.WriteLine("Se ha insertado el cliente nro " +cod.ToString());
-                
-                List<Cliente> lst = servicio.TraerClientes();
+                CuentaServicio servicio = new CuentaServicio();
+                Cuenta c = servicio.AbrirCuenta("Caja ahorro", 17);
+                Console.WriteLine("Alta cuenta" +c);
 
-                foreach (Cliente c in lst)
-                {
-                    Console.WriteLine(c);
-                }
+                servicio.ModificarSaldo(c.Id,390);
+                Console.WriteLine("Saldo Modificado");
+
+                c = servicio.Traer(17);
+                Console.WriteLine("El nuevo estado cuenta:"+c);
+              
             }
             catch(Exception ex)
             {
-                Console.WriteLine(ex);
+                Console.WriteLine(ex.Message);
             }
         }
     }
