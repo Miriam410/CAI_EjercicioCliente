@@ -15,14 +15,35 @@ namespace CAI_EjercicioCliente
     
     public partial class FrmPrincipal : Form
     {
-        ClienteServicio clienteS;
-        CuentaServicio cuentaS;
+        private ClienteServicio clienteS;
+        private CuentaServicio cuentaS;
+        private FrmAgregarCliente AgregarClienteFrom;
+        private FrmAgregarCuenta AgregarCuentaForm;
 
         public FrmPrincipal()
         {
             InitializeComponent();
             clienteS = new ClienteServicio();
             cuentaS = new CuentaServicio();
+            AgregarClienteFrom = new FrmAgregarCliente();
+            AgregarCuentaForm = new FrmAgregarCuenta();
+        }
+
+   
+        private void btn_AgregarCliente_Click(object sender, EventArgs e)
+        {
+            AgregarClienteFrom.Owner = this;
+            AgregarClienteFrom.Show();
+            ActualizarClientes();
+            this.Hide();
+        }
+
+        private void btn_AgregarCuenta_Click(object sender, EventArgs e)
+        {
+            AgregarCuentaForm.Owner= this;
+            AgregarCuentaForm.Show();
+            ActualizarCuenta();
+            this.Hide();
         }
 
         public Cliente TraerPorId(int id)
@@ -75,22 +96,6 @@ namespace CAI_EjercicioCliente
             List<Cuenta> listCuenta;
             listCuenta = cuentaS.TraerTodos();
         }
-        private void btn_AgregarCliente_Click(object sender, EventArgs e)
-        {
-            FrmAgregarCliente formularioCliente = new FrmAgregarCliente(this);
-            this.Hide();
-            formularioCliente.Show();
-            ActualizarClientes();
-        }
 
-        private void btn_AgregarCuenta_Click(object sender, EventArgs e)
-        {
-            FrmAgregarCuenta formularioCuenta = new FrmAgregarCuenta(this);
-            this.Hide();
-            formularioCuenta.Show();
-            ActualizarCuenta();
-        }
-
-       
     }
 }

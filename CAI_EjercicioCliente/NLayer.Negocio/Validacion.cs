@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NLayer.Entidad;
+using NLayer.Dato;
 
 namespace NLayer.Negocio
 {
-    public class Validacion
+    public static class Validacion
     {
-        bool Flag = true;
-        string msg = "";
-        public  bool ValidarCampo(string dni, string nombre, string apellido, string direccion, string email, string telefono, string fechaNacimiento, string fechaAlta)
+        static bool Flag = true;
+        static string msg = "";
+        public  static bool ValidarCampo(string dni, string nombre, string apellido, string direccion, string email, string telefono, string fechaNacimiento, string fechaAlta)
         {
    
             if (!int.TryParse(dni, out int Dni))
@@ -24,12 +26,12 @@ namespace NLayer.Negocio
             }
 
 
-            if ((string.IsNullOrEmpty(nombre) || (string.IsNullOrEmpty(apellido)) || (string.IsNullOrEmpty(direccion) || (string.IsNullOrEmpty(email)) || (string.IsNullOrEmpty(telefono)))))
+            if ((string.IsNullOrEmpty(nombre) || (string.IsNullOrEmpty(apellido)) || (string.IsNullOrEmpty(direccion) ||  (string.IsNullOrEmpty(telefono)))))
             {
                 msg += "Se requiere el nombre";
                 msg += "Se requiere el apellido";
                 msg += "Se requiere el direccion";
-                msg += "Se requiere el email";
+
                 msg += "Se requiere el telefono";
             }
 
@@ -46,7 +48,7 @@ namespace NLayer.Negocio
         }
 
 
-        public string ValidarFecha(string fecha, string campo)
+        public static string ValidarFecha(string fecha, string campo)
         {
 
             if (!DateTime.TryParse(fecha, out DateTime fechas))
@@ -65,7 +67,7 @@ namespace NLayer.Negocio
             return msg;
         }
 
-        private bool ValidarCampo(string idCliente, string numeroCuenta, string saldo, string descripcion)
+        public static  bool ValidarCampoCuenta(string idCliente, string numeroCuenta, string saldo, string descripcion)
         {
 
             msg += ValidarNumero(idCliente, "id Clienta");
@@ -90,7 +92,7 @@ namespace NLayer.Negocio
             return Flag;
         }
 
-        public string ValidarNumero(string num, string campo)
+        public static string ValidarNumero(string num, string campo)
         {
             string msg;
 

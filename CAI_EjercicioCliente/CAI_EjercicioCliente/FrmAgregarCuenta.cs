@@ -14,58 +14,71 @@ namespace CAI_EjercicioCliente
 {
     public partial class FrmAgregarCuenta : Form
     {
-         FrmPrincipal owner;
-        public FrmAgregarCuenta(FrmPrincipal own)
+        private ClienteServicio clienteServicio;
+        private CuentaServicio cuentaServicio;
+        private FrmPrincipal frmPrincipal;
+        public FrmAgregarCuenta()
         {
             InitializeComponent();
-            owner = new FrmPrincipal();
-            owner = own;
+            clienteServicio = new ClienteServicio();
+            cuentaServicio = new CuentaServicio();
         }
+
+        private void FrmAgregarCuenta_Load(object sender, EventArgs e)
+        {
+            frmPrincipal = new FrmPrincipal();
+        }
+
         private void btn_Enviar_Click(object sender, EventArgs e)
         {
-            bool Flag = Validacion.ValidarCampo(txtIdCliente.Text, txtNumeroCuenta.Text, txtSaldo.Text, txtDescripcion.Text);
-            if (Flag)
+            try
             {
-
-                Cuenta ingCuenta = new Cuenta();
-
-                ingCuenta.IdCliente = Convert.ToInt32(txtIdCliente.Text);
-                Cliente ingCliente = owner.TraerPorId(Convert.ToInt32(txtIdCliente.Text));
-                if (ingCliente == null)
-                {
-                    MessageBox.Show($"No eciste el cliente con el Id: {(Convert.ToInt32(txtIdCliente.Text))}");
-                    return;
-                }
-
-                ingCuenta.NumeroCuenta = Convert.ToInt32(txtNumeroCuenta.Text);
-                Cuenta CuentaRepetida = owner.TraerCuentaPorNumero(Convert.ToInt32(txtNumeroCuenta.Text));
-                if (CuentaRepetida != null)
-                {
-                    MessageBox.Show("La cuenta ya existe", "Error");
-                }
-
-                ingCuenta.Saldo = Convert.ToSingle(txtSaldo.Text);
-                ingCuenta.Descripcion = txtDescripcion.Text;
-
-                try
+                bool Flag = Validacion.ValidarCampoCuenta(txtIdCliente.Text, txtNumeroCuenta.Text, txtSaldo.Text, txtDescripcion.Text);
+                if (Flag)
                 {
 
-                    owner.IngresarCuenta(ingCuenta);
+                    Cuenta ingCuenta = new Cuenta();
+
+                    ingCuenta.IdCliente = Convert.ToInt32(txtIdCliente.Text);
+                    Cliente ingCliente = clienteServicio.TraerClientePorId(Convert.ToInt32(txtIdCliente.Text));
+                    if (ingCliente == null)
+                    {
+                        MessageBox.Show($"No eciste el cliente con el Id: {(Convert.ToInt32(txtIdCliente.Text))}");
+                        return;
+                    }
+
+                    ingCuenta.NumeroCuenta = Convert.ToInt32(txtNumeroCuenta.Text);
+                    Cuenta CuentaRepetida = cuentaServicio.TraerCuentaPorNumero(Convert.ToInt32(txtNumeroCuenta.Text));
+                    if (CuentaRepetida != null)
+                    {
+                        MessageBox.Show("La cuenta ya existe", "Error");
+                    }
+
+                    ingCuenta.Saldo = Convert.ToSingle(txtSaldo.Text);
+                    ingCuenta.Descripcion = txtDescripcion.Text;
+                    cuentaServicio.Insert(ingCuenta);
                     MessageBox.Show("Cuenta ingresada", "Ingreso Exitoso");
-                    Volver();
+                    BorrarCampos();
                 }
-                catch (ArgumentException ex)
-                {
-                    MessageBox.Show(ex.Message, "Error");
-                }
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
             }
         }
 
-        private void Volver()
+        public void BorrarCampos()
         {
-            this.Owner.Show();
-            this.Close();
+            txtIdCliente.Clear();
+            txtNumeroCuenta.Clear();
+            txtSaldo.Clear();
+            txtDescripcion.Clear();
         }
        
+        private void btn_Salir_Click(object sender, EventArgs e)
+        {
+            frmPrincipal.Show();
+            this.Close();
+        }
     }
 }

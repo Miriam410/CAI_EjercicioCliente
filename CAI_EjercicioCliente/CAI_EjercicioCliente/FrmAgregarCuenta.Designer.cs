@@ -71,6 +71,7 @@
             this.btn_Salir.TabIndex = 46;
             this.btn_Salir.Text = "Salir";
             this.btn_Salir.UseVisualStyleBackColor = false;
+            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
             // lbl_Id
             // 
@@ -241,6 +242,7 @@
             this.Controls.Add(this.lbl_NroCuenta);
             this.Name = "FrmAgregarCuenta";
             this.Text = "AgregarCuenta";
+            this.Load += new System.EventHandler(this.FrmAgregarCuenta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

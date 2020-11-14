@@ -14,7 +14,7 @@ namespace NLayer.Dato
     {
         public List<Cuenta> TraerTodos(int idCliente)
         {
-            string json2 = WebHelper.Get("/cuenta" );
+            string json2 = WebHelper.Get("/api/v1/cuenta");
             List<Cuenta> resultado = MapList(json2);
             return resultado;
         }
@@ -22,8 +22,9 @@ namespace NLayer.Dato
         public TransactionResult Insert(Cuenta cuenta)
         {
             NameValueCollection obj = ReverseMap(cuenta);
-            string result = WebHelper.Post("/cuenta", obj);
+            string result = WebHelper.Post("/api/v1/cuenta", obj);
             TransactionResult resultadoTransaccion = MapResultado(result);
+            return resultadoTransaccion;
         }
 
         

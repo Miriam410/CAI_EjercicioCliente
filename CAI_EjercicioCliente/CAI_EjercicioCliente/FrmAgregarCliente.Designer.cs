@@ -176,7 +176,6 @@
             this.btn_Enviar.TabIndex = 23;
             this.btn_Enviar.Text = "Enviar";
             this.btn_Enviar.UseVisualStyleBackColor = false;
-            this.btn_Enviar.Click += new System.EventHandler(this.btn_Enviar_Click);
             // 
             // rbn_No
             // 
@@ -215,7 +214,6 @@
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(121, 20);
             this.txtDni.TabIndex = 54;
-    
             // 
             // txtNombre
             // 
@@ -223,7 +221,6 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(121, 20);
             this.txtNombre.TabIndex = 55;
-            
             // 
             // txtDireccion
             // 
@@ -231,7 +228,6 @@
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(121, 20);
             this.txtDireccion.TabIndex = 56;
-            
             // 
             // txtEmail
             // 
@@ -323,6 +319,7 @@
             this.Controls.Add(this.lbl_Dni);
             this.Name = "FrmAgregarCliente";
             this.Text = "AgregarCliente";
+            this.Load += new System.EventHandler(this.FrmAgregarCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
