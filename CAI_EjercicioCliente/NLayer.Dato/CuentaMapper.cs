@@ -12,7 +12,7 @@ namespace NLayer.Dato
 {
     public class CuentaMapper
     {
-        public List<Cuenta> TraerTodos(int idCliente)
+        public List<Cuenta> TraerTodos()
         {
             string json2 = WebHelper.Get("/api/v1/cuenta");
             List<Cuenta> resultado = MapList(json2);

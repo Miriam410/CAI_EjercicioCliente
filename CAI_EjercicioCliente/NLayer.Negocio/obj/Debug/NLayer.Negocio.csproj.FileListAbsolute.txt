@@ -1,2 +1,17 @@
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csprojAssemblyReference.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csprojAssemblyReference.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\NLayer.Negocio.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\NLayer.Negocio.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\NLayer.Dato.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\NLayer.Entidad.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\NLayer.Dato.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\NLayer.Entidad.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csprojAssemblyReference.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.csproj.CopyComplete
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Negocio\obj\Debug\NLayer.Negocio.pdb

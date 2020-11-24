@@ -4,3 +4,9 @@ C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\obj\Debug\NLayer.Entidad.csproj.CoreCompileInputs.cache
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\obj\Debug\NLayer.Entidad.dll
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\obj\Debug\NLayer.Entidad.pdb
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\bin\Debug\NLayer.Entidad.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\bin\Debug\NLayer.Entidad.pdb
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\obj\Debug\NLayer.Entidad.csprojAssemblyReference.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\obj\Debug\NLayer.Entidad.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\obj\Debug\NLayer.Entidad.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Entidad\obj\Debug\NLayer.Entidad.pdb

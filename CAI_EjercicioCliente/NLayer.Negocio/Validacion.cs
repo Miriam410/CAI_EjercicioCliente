@@ -12,7 +12,7 @@ namespace NLayer.Negocio
     {
         static bool Flag = true;
         static string msg = "";
-        public  static bool ValidarCampo(string dni, string nombre, string apellido, string direccion, string email, string telefono, string fechaNacimiento, string fechaAlta)
+        public  static bool ValidarCampo(string dni, string nombre, string apellido, string direccion, string email, string telefono, string fechaNacimiento)
         {
    
             if (!int.TryParse(dni, out int Dni))
@@ -37,8 +37,7 @@ namespace NLayer.Negocio
 
             msg += ValidarFecha(fechaNacimiento, "fecha nacimiento");
 
-            msg += ValidarFecha(fechaAlta, "fecha alta");
-
+         
             if (!string.IsNullOrEmpty(msg))
             {
                 msg = "Error de datos";
@@ -95,7 +94,6 @@ namespace NLayer.Negocio
         public static string ValidarNumero(string num, string campo)
         {
             string msg;
-
 
             if (!int.TryParse(num, out int numero))
             {

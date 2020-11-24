@@ -7,3 +7,33 @@ C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csproj.CoreCompileInputs.cache
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.exe
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.pdb
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csprojAssemblyReference.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.FrmAgregarCliente.resources
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.FrmAgregarCuenta.resources
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.FrmPrincipal.resources
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.Properties.Resources.resources
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csproj.GenerateResource.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.exe
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\CAI_EjercicioCliente.exe.config
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\CAI_EjercicioCliente.exe
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\CAI_EjercicioCliente.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\NLayer.Entidad.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\NLayer.Negocio.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\NLayer.Dato.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\NLayer.Entidad.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\NLayer.Negocio.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\NLayer.Dato.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csprojAssemblyReference.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.FrmAgregarCliente.resources
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.FrmAgregarCuenta.resources
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.FrmPrincipal.resources
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.Properties.Resources.resources
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csproj.GenerateResource.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csproj.CoreCompileInputs.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\NLayer.Formulario.csproj.CopyComplete
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.exe
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\CAI_EjercicioCliente\obj\Debug\CAI_EjercicioCliente.pdb

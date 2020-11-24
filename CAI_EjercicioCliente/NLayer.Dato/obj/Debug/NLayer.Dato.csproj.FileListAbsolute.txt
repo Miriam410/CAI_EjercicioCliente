@@ -1,2 +1,40 @@
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csprojAssemblyReference.cache
 C:\Users\chenm\OneDrive\文档\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Dato.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Dato.pdb
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\Newtonsoft.Json.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Entidad.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.AccessControl.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Permissions.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Principal.Windows.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Entidad.pdb
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\Newtonsoft.Json.xml
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.AccessControl.xml
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Permissions.xml
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Principal.Windows.xml
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csprojAssemblyReference.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csproj.CopyComplete
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.dll
+C:\Program Files (x86)\GitHub\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Dato.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Dato.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Entidad.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.AccessControl.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Permissions.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\NLayer.Entidad.pdb
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.AccessControl.xml
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Permissions.xml
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csprojAssemblyReference.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csproj.CoreCompileInputs.cache
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.csproj.CopyComplete
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.dll
+C:\Users\chenm\OneDrive\Desktop\CAI_EjercicioCliente\CAI_EjercicioCliente\NLayer.Dato\obj\Debug\NLayer.Dato.pdb

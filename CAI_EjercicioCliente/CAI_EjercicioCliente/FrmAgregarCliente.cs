@@ -16,12 +16,16 @@ namespace CAI_EjercicioCliente
 {
     public partial class FrmAgregarCliente : Form
     {
-        ClienteServicio clienteServ;
         FrmPrincipal frmPrincipal;
-        public FrmAgregarCliente(FrmPrincipal own)
+        ClienteServicio clienteServ;
+        private List<Cliente> cliente;
+
+        public FrmAgregarCliente()
         {
             InitializeComponent();
             clienteServ = new ClienteServicio();
+            this.cliente = this.clienteServ.TraerTodos();
+
         }
       
         private void FrmAgregarCliente_Load(object sender, EventArgs e)
@@ -33,7 +37,7 @@ namespace CAI_EjercicioCliente
             
             try
             {
-                bool Flag = Validacion.ValidarCampo(txtDni.Text, txtNombre.Text, txtApellido.Text, txtDireccion.Text, txtEmail.Text, txtTelefono.Text, txtFechaNacimiento.Text, txtFechaAlta.Text);
+                bool Flag = Validacion.ValidarCampo(txtDni.Text, txtNombre.Text, txtApellido.Text, txtDireccion.Text, txtEmail.Text, txtTelefono.Text, txtFechaNacimiento.Text);
                 if (Flag)
                 {
                     Cliente ingCliente = new Cliente();
@@ -44,7 +48,7 @@ namespace CAI_EjercicioCliente
                     ingCliente.Email = txtEmail.Text;
                     ingCliente.Telefono = txtTelefono.Text;
                     ingCliente.FechaNacimiento = Convert.ToDateTime(txtFechaNacimiento.Text);
-                    ingCliente.FechaAlta = Convert.ToDateTime(txtFechaAlta.Text);
+                   
 
                     List<Cliente> lists = clienteServ.TraerTodos();
                     clienteServ.Insert(ingCliente);
@@ -52,29 +56,29 @@ namespace CAI_EjercicioCliente
                     BorrarCampos();
                 }
             }
-            catch (ArgumentException ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error");
             }
         }
         private void BorrarCampos()
         {
-            txtDni.Clear();
-            txtNombre.Clear();
-            txtApellido.Clear();
-            txtDireccion.Clear();
-            txtEmail.Clear();
-            txtTelefono.Clear();
-            txtFechaNacimiento.Clear();
-            txtFechaAlta.Clear();
+            txtDni.Text = string.Empty;
+            txtNombre.Text = string.Empty;
+            txtApellido.Text = string.Empty;
+            txtDireccion.Text = string.Empty;
+            txtEmail.Text = string.Empty;
+            txtTelefono.Text = string.Empty;
+            txtFechaNacimiento.Text = string.Empty;
         }
         
         private void btn_Salir_Click(object sender, EventArgs e)
         {
             this.Close();
+            this.Hide();
             frmPrincipal.Show();
         }
 
-    
+
     }
 }

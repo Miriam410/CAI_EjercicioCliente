@@ -34,11 +34,7 @@
             this.lbl_Telefono = new System.Windows.Forms.Label();
             this.lbl_Email = new System.Windows.Forms.Label();
             this.lbl_Dirección = new System.Windows.Forms.Label();
-            this.lbl_Host = new System.Windows.Forms.Label();
-            this.lbl_Usuario = new System.Windows.Forms.Label();
-            this.lbl_FechaAlta = new System.Windows.Forms.Label();
             this.lbl_FechaNacimiento = new System.Windows.Forms.Label();
-            this.lbl_Id = new System.Windows.Forms.Label();
             this.btn_Salir = new System.Windows.Forms.Button();
             this.btn_Enviar = new System.Windows.Forms.Button();
             this.rbn_No = new System.Windows.Forms.RadioButton();
@@ -49,12 +45,8 @@
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtFechaNacimiento = new System.Windows.Forms.TextBox();
-            this.txtFechaAlta = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
-            this.txtHost = new System.Windows.Forms.TextBox();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_Dni
@@ -111,33 +103,6 @@
             this.lbl_Dirección.TabIndex = 3;
             this.lbl_Dirección.Text = "Dirección";
             // 
-            // lbl_Host
-            // 
-            this.lbl_Host.AutoSize = true;
-            this.lbl_Host.Location = new System.Drawing.Point(316, 277);
-            this.lbl_Host.Name = "lbl_Host";
-            this.lbl_Host.Size = new System.Drawing.Size(29, 13);
-            this.lbl_Host.TabIndex = 9;
-            this.lbl_Host.Text = "Host";
-            // 
-            // lbl_Usuario
-            // 
-            this.lbl_Usuario.AutoSize = true;
-            this.lbl_Usuario.Location = new System.Drawing.Point(19, 277);
-            this.lbl_Usuario.Name = "lbl_Usuario";
-            this.lbl_Usuario.Size = new System.Drawing.Size(43, 13);
-            this.lbl_Usuario.TabIndex = 8;
-            this.lbl_Usuario.Text = "Usuario";
-            // 
-            // lbl_FechaAlta
-            // 
-            this.lbl_FechaAlta.AutoSize = true;
-            this.lbl_FechaAlta.Location = new System.Drawing.Point(316, 205);
-            this.lbl_FechaAlta.Name = "lbl_FechaAlta";
-            this.lbl_FechaAlta.Size = new System.Drawing.Size(58, 13);
-            this.lbl_FechaAlta.TabIndex = 7;
-            this.lbl_FechaAlta.Text = "Fecha Alta";
-            // 
             // lbl_FechaNacimiento
             // 
             this.lbl_FechaNacimiento.AutoSize = true;
@@ -147,19 +112,10 @@
             this.lbl_FechaNacimiento.TabIndex = 6;
             this.lbl_FechaNacimiento.Text = "Fecha Nacimiento";
             // 
-            // lbl_Id
-            // 
-            this.lbl_Id.AutoSize = true;
-            this.lbl_Id.Location = new System.Drawing.Point(22, 314);
-            this.lbl_Id.Name = "lbl_Id";
-            this.lbl_Id.Size = new System.Drawing.Size(16, 13);
-            this.lbl_Id.TabIndex = 10;
-            this.lbl_Id.Text = "Id";
-            // 
             // btn_Salir
             // 
             this.btn_Salir.BackColor = System.Drawing.Color.Red;
-            this.btn_Salir.Location = new System.Drawing.Point(417, 368);
+            this.btn_Salir.Location = new System.Drawing.Point(429, 287);
             this.btn_Salir.Name = "btn_Salir";
             this.btn_Salir.Size = new System.Drawing.Size(99, 55);
             this.btn_Salir.TabIndex = 22;
@@ -170,12 +126,13 @@
             // btn_Enviar
             // 
             this.btn_Enviar.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Enviar.Location = new System.Drawing.Point(299, 368);
+            this.btn_Enviar.Location = new System.Drawing.Point(300, 287);
             this.btn_Enviar.Name = "btn_Enviar";
             this.btn_Enviar.Size = new System.Drawing.Size(92, 55);
             this.btn_Enviar.TabIndex = 23;
             this.btn_Enviar.Text = "Enviar";
             this.btn_Enviar.UseVisualStyleBackColor = false;
+            this.btn_Enviar.Click += new System.EventHandler(this.btn_Enviar_Click);
             // 
             // rbn_No
             // 
@@ -243,13 +200,6 @@
             this.txtFechaNacimiento.Size = new System.Drawing.Size(121, 20);
             this.txtFechaNacimiento.TabIndex = 58;
             // 
-            // txtFechaAlta
-            // 
-            this.txtFechaAlta.Location = new System.Drawing.Point(383, 198);
-            this.txtFechaAlta.Name = "txtFechaAlta";
-            this.txtFechaAlta.Size = new System.Drawing.Size(121, 20);
-            this.txtFechaAlta.TabIndex = 61;
-            // 
             // txtTelefono
             // 
             this.txtTelefono.Location = new System.Drawing.Point(383, 119);
@@ -264,36 +214,11 @@
             this.txtApellido.Size = new System.Drawing.Size(121, 20);
             this.txtApellido.TabIndex = 59;
             // 
-            // txtHost
-            // 
-            this.txtHost.Location = new System.Drawing.Point(383, 274);
-            this.txtHost.Name = "txtHost";
-            this.txtHost.Size = new System.Drawing.Size(121, 20);
-            this.txtHost.TabIndex = 64;
-            // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(124, 314);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(121, 20);
-            this.txtId.TabIndex = 63;
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(124, 277);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(121, 20);
-            this.txtUsuario.TabIndex = 62;
-            // 
             // FrmAgregarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(575, 450);
-            this.Controls.Add(this.txtHost);
-            this.Controls.Add(this.txtId);
-            this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.txtFechaAlta);
+            this.ClientSize = new System.Drawing.Size(575, 360);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtFechaNacimiento);
@@ -306,10 +231,6 @@
             this.Controls.Add(this.lbl_Activo);
             this.Controls.Add(this.btn_Enviar);
             this.Controls.Add(this.btn_Salir);
-            this.Controls.Add(this.lbl_Id);
-            this.Controls.Add(this.lbl_Host);
-            this.Controls.Add(this.lbl_Usuario);
-            this.Controls.Add(this.lbl_FechaAlta);
             this.Controls.Add(this.lbl_FechaNacimiento);
             this.Controls.Add(this.lbl_Telefono);
             this.Controls.Add(this.lbl_Email);
@@ -333,11 +254,7 @@
         private System.Windows.Forms.Label lbl_Telefono;
         private System.Windows.Forms.Label lbl_Email;
         private System.Windows.Forms.Label lbl_Dirección;
-        private System.Windows.Forms.Label lbl_Host;
-        private System.Windows.Forms.Label lbl_Usuario;
-        private System.Windows.Forms.Label lbl_FechaAlta;
         private System.Windows.Forms.Label lbl_FechaNacimiento;
-        private System.Windows.Forms.Label lbl_Id;
         private System.Windows.Forms.Button btn_Salir;
         private System.Windows.Forms.Button btn_Enviar;
         private System.Windows.Forms.RadioButton rbn_No;
@@ -348,11 +265,7 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtFechaNacimiento;
-        private System.Windows.Forms.TextBox txtFechaAlta;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtHost;
-        private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.TextBox txtUsuario;
     }
 }

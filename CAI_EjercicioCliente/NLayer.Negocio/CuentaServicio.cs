@@ -25,7 +25,7 @@ namespace NLayer.Negocio
         }
         public Cuenta TraerCuentaPorId(int id)
         {
-            List<Cuenta> result = mapper.TraerTodos(id);
+            List<Cuenta> result = mapper.TraerTodos();
             Cuenta retorno= null;
             foreach (Cuenta cuenta in result)
             {
@@ -39,7 +39,7 @@ namespace NLayer.Negocio
 
         public Cuenta TraerCuentaPorNumero(int numero)
         {
-            List<Cuenta> result = mapper.TraerTodos(numero);
+            List<Cuenta> result = mapper.TraerTodos();
             Cuenta retorno = null;
             foreach (Cuenta cuenta in result)
             {
